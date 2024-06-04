@@ -18,24 +18,24 @@ Bir fabrikanın farklı departmanlarında çalışan işçiler düşünelim: bir
 Her bir işçi kendi işi üzerinde çalışıyor ve bu işçiler thread olarak temsil edilebilir.
 
 ### Sınıf Tanımlama ve Değişkenler:
-![github](images/img_1.png)
+![github](img_1.png)
 
 - `ThreadExtends` adında bir sınıf tanımlıyoruz ve `Thread` sınıfından genişletiyoruz.
 - Her thread için bir kimlik `threadID` ve isim `threadName` tutuyoruz.
 
 ### Yapıcı Metodlar:
-![github](images/img_2.png)
+![github](img_2.png)
 
 Thread oluştururken kimlik ve isim belirleyebiliyoruz.
 
 ### Run Metodu:
-![github](images/img_3.png)
+![github](img_3.png)
 
 - `run` metodu, thread'in yapacağı işi tanımlar.
 - Burada, thread 1'den 9'a kadar sayar ve her sayıda bir saniye bekler `Thread.sleep(1000)`
 
 ### Thread'leri Başlatma:
-![github](images/img_4.png)
+![github](img_4.png)
 
 - Üç farklı thread oluşturup başlatıyoruz.
 - `t1.start()` ile `t1` thread'ini başlatıyoruz ve `t1.join()` ile `t1` bitene kadar bekliyoruz.
