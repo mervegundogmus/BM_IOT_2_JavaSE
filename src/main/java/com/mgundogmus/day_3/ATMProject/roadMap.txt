@@ -1,0 +1,26 @@
+ Proje Adı : ATM Project
+
+ Proje Tanımı:
+ Console üzerinden, projemiz Login ile sisteme giriş yapılacaktır.
+ Kullanıcıya öncden verilmiş şifreyle birlikte
+ eğer kullanıcı 3 kere yanlış şifre girirse kart bloke olacaktır.
+ Eğer kullanıcı doğru şifre ile girerse sisteme giriş yapmış olacaktır.
+
+ NOT: Kullanıcı şifresini banka tarafından yazılmış bir dosyadan okunacaktır.
+
+ Proje Özellikleri:
+ 1-) Login
+ 2-) Para Yatır
+ 3-) Para Çek
+ 4-) Para Havala veya Eft
+ 5-) Para Bağış Yap
+ 6-) Para Müşteri Hizmetlerini Ara
+ 7-) Güvenli Çıkış
+
+ Validation:
+ 1-) Müşteri hesaptaki paradan yukarı bir para gönderilmeyecektir.
+ 2-) Müşteri yanlış login ile hesabı bloke olacaktır.
+ 3-) Müşteriye banka başlangıçta 1000TL bonusla gelecektir.
+
+ NOT: Bu projeyi öğrendiğimizde;
+ Enum, Collection, OOP, String, File, Array
