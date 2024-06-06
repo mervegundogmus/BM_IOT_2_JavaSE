@@ -29,4 +29,13 @@ public class User {
         this.loginAttempts = 0;
     }
 
+    // incrementLoginAttemps metodu
+    public void incrementLoginAttemps() {
+        this.loginAttempts++;
+    }
+
+    // block metodu
+    public void block() {
+        this.isBlocked = true;
+    }
 }

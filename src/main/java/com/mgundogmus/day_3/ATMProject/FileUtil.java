@@ -6,7 +6,9 @@ import java.io.IOException;
 
 public class FileUtil {
     public static String readPassword(String userName) throws IOException {
-        try (BufferedReader br = new BufferedReader(new FileReader("users.txt"))) {
+        String filePath = "src/main/resources/users.txt";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split(",");
@@ -17,4 +19,5 @@ public class FileUtil {
         }
         return null;
     }
+
 }
