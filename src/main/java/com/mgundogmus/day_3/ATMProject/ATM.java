@@ -62,6 +62,7 @@ public class ATM {
         System.out.println("4. Bağış Yap");
         System.out.println("5. Müşteri Hizmetlerini Ara");
         System.out.println("6. Güvenli Çıkış");
+
     }
 
 
