@@ -1,0 +1,59 @@
+Kalıtım ile Günlük hayattan örnekler:
+
+Temel Sınıf: İnsan
+Türemiş Sınıf: Öğretmen, Polis, Avukat, Yazılımcı, Mühendis...
+
+Temel Sınıf: Hayvan
+Türemiş Sınıf: İnek, Kedi, Köpek, Kuş
+
+Özellikler: İsim, yaş, cinsiyet, tür
+Davranışlar: Ses, yemek yemek, uyumak
+
+Özellikler: İsim, Yaş, Cinsiyet
+Davranışlar: Konuşmak, yemek yemek, şarkı söylemek...
+
+
+Davranışlar: Kuş -> uçmak kendi sınıfındaki bir özellik.
+
+
+        Kalıtım Sınıfı   ---> isim, yemek yemek, üremek
+        /           \       \
+        Kuş         Köpek     Ördek
+
+
+ Soyut Sınıf: Taşıt  --> Bisiklet, Araba
+ Özellikler: Hız, Renk, Yolcu sayısı/kapasitesi
+ Davranışlar: Hareket etmek, durmak
+
+
+ @Overriding
+ @Overloading
+
+
+ Ortaksa *Abstract* Sınıf --->     TASIT
+                                  /     \
+ somut alt sınıflar ---->      Araba     Bisiklet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
